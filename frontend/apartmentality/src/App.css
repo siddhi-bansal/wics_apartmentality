@@ -13,7 +13,7 @@
 
 .tabs button {
   margin-right: 20px;
-  margin: 70px;
+  margin: 50px;
   border: none;
   background: white;
   cursor: pointer;
@@ -23,6 +23,10 @@
 
 .tabs button.active {
   font-weight: bold;
+}
+
+.tabs button:hover {
+  background-color: rgba(243, 240, 240, 0.8); 
 }
 
 .content {
