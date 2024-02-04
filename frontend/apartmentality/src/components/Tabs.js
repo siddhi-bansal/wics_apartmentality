@@ -7,7 +7,6 @@ function Tabs({ activeTab, setActiveTab }) {
     <div className="tabs">
       <button onClick={() => setActiveTab('home')} className={activeTab === 'home' ? 'active' : ''}>Home</button>
       <button onClick={() => setActiveTab('favorite')} className={activeTab === 'favorite' ? 'active' : ''}>Favorite</button>
-      <button onClick={() => setActiveTab('recommendations')} className={activeTab === 'recommendations' ? 'active' : ''}>Recommendations</button>
       <button onClick={() => setActiveTab('compare')} className={activeTab === 'compare' ? 'active' : ''}>Compare</button>
     </div>
   );

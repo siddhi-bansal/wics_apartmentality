@@ -11,7 +11,6 @@ function Content({ activeTab }) {
     <div className="content">
       {activeTab === 'home' && <div><Home/></div>}
       {activeTab === 'favorite' && <div><West_26/></div>}
-      {activeTab === 'recommendations' && <div><Recommendation/></div>}
       {activeTab === 'compare' && <div><Compare/></div>}
     </div>
   );

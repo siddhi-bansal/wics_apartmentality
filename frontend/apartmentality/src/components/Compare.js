@@ -104,6 +104,7 @@ function Compare() {
     <div style={{ display: 'flex'}}>
       <div style={{ flex: 1, padding: '20px'}}>
         <select style={{ padding: '5px', fontSize: '15px', textAlign: 'center', paddingRight: '150px'}} className="dropdown" value={selectedOption1} onChange={handleChange1}>
+          <option value="[Select Option]">[Select Option]</option>
           <option value="Moontower">Moontower</option>
           <option value="26 West">26 West</option>
           <option value="Lark Austin">Lark Austin</option>
@@ -115,6 +116,7 @@ function Compare() {
       </div>
       <div style={{ flex: 1, padding: '20px', alignItems: 'center'}}>
         <select style={{ padding: '5px', fontSize: '15px', textAlign: 'center', paddingRight: '150px'}} className="dropdown" value={selectedOption2} onChange={handleChange2}>
+          <option value="[Select Option]">[Select Option]</option>
           <option value="Moontower">Moontower</option>
           <option value="26 West">26 West</option>
           <option value="Lark Austin">Lark Austin</option>
