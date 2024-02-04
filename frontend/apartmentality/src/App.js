@@ -18,7 +18,7 @@ function App() {
         </div> */}
         <div className="title">
           <h1>Apartmentality</h1>
-          <p>Your home is where the heart is i guess</p>
+          <p>Find Your New Mojo Dojo Dreamhouse Today!</p>
         </div>
         </div>
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />

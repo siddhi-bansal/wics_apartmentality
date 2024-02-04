@@ -4,6 +4,7 @@ import React from 'react';
 import Home from './Home';
 import Recommendation from './Recommendation.js';
 import West_26 from './West_26';
+import Compare from './Compare'
 
 function Content({ activeTab }) {
   return (
@@ -11,7 +12,7 @@ function Content({ activeTab }) {
       {activeTab === 'home' && <div><Home/></div>}
       {activeTab === 'favorite' && <div><West_26/></div>}
       {activeTab === 'recommendations' && <div><Recommendation/></div>}
-      {activeTab === 'compare' && <div>Comparisons</div>}
+      {activeTab === 'compare' && <div><Compare/></div>}
     </div>
   );
 }

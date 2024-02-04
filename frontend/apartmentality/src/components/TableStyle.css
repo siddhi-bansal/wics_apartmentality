@@ -1,14 +1,4 @@
-.west-26-container {
-    text-align: center;
-}
-
-.west-26-container h1,
-.west-26-container h2,
-.west-26-container p {
-    text-align: center;
-}
-
-/* TableComponent.css */
+/* TableStyles.css */
 table {
     width: 100%;
     border-collapse: collapse;

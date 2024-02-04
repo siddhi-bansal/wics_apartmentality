@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 350px);
     grid-row-gap: 80px;
     grid-column-gap: 80px;
-    margin: 150px;
+    margin-bottom: 150px;
 }
 
 .card-img {
@@ -17,8 +17,8 @@
     font-weight: bold;
     font-size: x-large;
     text-align: center;
-    margin: 40px;
-    padding-top: 50px;
+    margin: 10px;
+    /* padding-top: 50px; */
 }
 
 .card:hover {
@@ -30,5 +30,10 @@
     border: none;
     background-color: white;
     padding-bottom: 10px;
-    
+    padding-top: 20px;
+}
+
+.card-text-pricing {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
