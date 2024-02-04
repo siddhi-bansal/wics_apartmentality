@@ -1,18 +1,33 @@
-
-
-.container {
+.web {
     display: grid;
-    grid-template-columns: repeat(3, 375px);
-    grid-row-gap: 100px;
-    grid-column-gap: 100px;
-    margin: 100px;
+    grid-template-columns: repeat(3, 350px);
+    grid-row-gap: 80px;
+    grid-column-gap: 80px;
+    margin: 150px;
 }
 
-img {
-    width: 400px;
-    height: 400px;
+.card-img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
 }
 
-.test {
-    display: grid;
+.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin: 40px;
+    padding-top: 50px;
+}
+
+.card:hover {
+    /* background-color: #ca6f2e; */
+    box-shadow: 10px 10px 100px 10px rgba(222, 124, 19, 0.5);
+}
+
+.card {
+    border: none;
+    background-color: white;
+    padding-bottom: 10px;
 }

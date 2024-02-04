@@ -12,7 +12,6 @@
 }
 
 .tabs button {
-  margin-right: 20px;
   margin: 50px;
   border: none;
   background: white;
@@ -36,15 +35,7 @@
 .header {
   text-align: center;
   color: black;
-  /* background-image: url("/public/logo192.png"); */
   background-position: right;
   background-size: cover;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-img {
-  /* padding: 5px; */
-  width: 100px;
-  padding-top: 15px;
-  /* padding-left: 20px; */
 }
