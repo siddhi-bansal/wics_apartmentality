@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "./Compare.css"
 
 function Compare() {
   const [selectedOption1, setSelectedOption1] = useState('');
@@ -41,7 +40,7 @@ function Compare() {
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Pricing</h2>
             <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>Rent prices start at $1274</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Proximity to Campus</h2>
-            <p style={{textAlign: 'center', fontFamily: 'Georgia',}}>Located 1 mile from campus.</p>
+            <p style={{textAlign: 'center', fontFamily: 'Georgia',}}>Located 0.5 mile from campus.</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Based on Your Profile</h2>
             <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>75% match</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Amenities: </h2>
@@ -65,7 +64,7 @@ function Compare() {
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Pricing</h2>
             <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>Rent prices start at $1375</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Proximity to Campus</h2>
-            <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>Located 0.5 mile from campus.</p>
+            <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>Located 0.4 mile from campus.</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Based on Your Profile</h2>
             <p style={{textAlign: 'center', fontFamily: 'Georgia'}}>53% match</p>
             <h2 style={{textAlign: 'center', fontFamily: 'Georgia'}}>Amenities:</h2>

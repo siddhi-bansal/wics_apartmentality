@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Recommendation from './Recommendation.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './Home.css';
+import { FiHeart } from "react-icons/fi";
 
 
 export function Home() {
@@ -55,7 +56,7 @@ export function Home() {
         <>
             <div name=''>
                 <div>
-                    <div className='web'>
+                    <div className='container'>
                         {items.map(({ id, src, link, name, starting }) => (
                             <div key={id} className="card-box">
                                 <div className="card-box">
@@ -63,8 +64,11 @@ export function Home() {
                                         onClick={() => window.open(link, '_self')}
                                         className='card'>
                                     <img className="card-img" src={src}/>
-                                    <div class="card-text">{name}</div>
-                                    <div class="card-text-pricing">Starting at {starting}</div>
+                                    <div>
+                                        <div class="card-text">{name}</div>
+                                        <div class="card-text-pricing">Starting at {starting}</div>
+                                    </div>
+                                    <FiHeart className="heart"/>
                                     </button>
                                 </div>
                             </div>

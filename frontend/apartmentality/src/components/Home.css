@@ -1,9 +1,10 @@
-.web {
+.container {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-row-gap: 80px;
     grid-column-gap: 80px;
     margin-bottom: 150px;
+    padding-left: 15px;
 }
 
 .card-img {
@@ -24,6 +25,8 @@
 .card:hover {
     /* background-color: #ca6f2e; */
     box-shadow: 10px 10px 100px 10px rgba(222, 124, 19, 0.5);
+    cursor: pointer;
+    background: rgba(222, 124, 19, 0.5);
 }
 
 .card {
@@ -31,9 +34,29 @@
     background-color: white;
     padding-bottom: 10px;
     padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .card-text-pricing {
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.heart {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    color: black;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.heart:hover {
+    animation: heartbeat 1s infinite;
+    fill: red;
+    color: red;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+

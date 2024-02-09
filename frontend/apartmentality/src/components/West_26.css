@@ -6,6 +6,7 @@
 .west-26-container h2,
 .west-26-container p {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* TableComponent.css */
@@ -20,8 +21,10 @@ td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
